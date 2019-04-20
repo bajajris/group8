@@ -1,10 +1,8 @@
 package ca.sheridancollege.project;
 
 import java.util.ArrayList;
-import java.util.EnumSet;
 import java.util.Random;
 import java.util.Scanner;
-import javafx.scene.input.KeyCode;
 
 /**
  *
