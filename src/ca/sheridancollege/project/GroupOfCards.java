@@ -63,8 +63,7 @@ public class GroupOfCards {
 
     @Override
     public String toString() {
-     
-            return cards.get(0).toString();
+        return null;
     }
 
 }//end class

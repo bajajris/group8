@@ -37,15 +37,4 @@ public class Card {
     public Suit getSuit() {
         return this.suit;
     }
-
-    /**
-     * Students should implement this method for their specific children classes
-     *
-     * @return a String representation of a card. Could be an UNO card, a
-     * regular playing card etc.
-     */
-    @Override
-    public String toString() {
-        return getSuit() + " " + getValue();
-    }
 }

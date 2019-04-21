@@ -132,11 +132,38 @@ public class MainCardTest {
 
     @Test
     public void testGameOverBoundary() {
-        System.out.println("testGroupOfCardsBoundary");
+        System.out.println("testGameOverBoundary");
         int size = 0;
         boolean expResult = true;
         boolean result = MainCard.checkGameOver(size);
         assertEquals(expResult, result);
         // TODO review the generated test code and remove the default call to fail.
+    }
+    @Test
+    public void testCheckStringInputGood() {
+        System.out.println("checkStringInputGood");
+        String Playernumber = "333";
+        boolean expResult = true;
+        boolean result = MainCard.checkStringInput(Playernumber);
+        assertEquals(expResult, result);
+
+    }
+    @Test
+    public void testCheckStringInputBad() {
+        System.out.println("checkStringInputBad");
+        String Playernumber = "1a2";
+        boolean expResult = false;
+        boolean result = MainCard.checkStringInput(Playernumber);
+        assertEquals(expResult, result);
+
+    }
+    @Test
+    public void testCheckStringInputBoundary() {
+        System.out.println("checkStringInputBoundary");
+        String Playernumber = "3";
+        boolean expResult = true;
+        boolean result = MainCard.checkStringInput(Playernumber);
+        assertEquals(expResult, result);
+
     }
 }

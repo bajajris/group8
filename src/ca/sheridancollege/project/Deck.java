@@ -1,6 +1,7 @@
 package ca.sheridancollege.project;
 
 import java.util.ArrayList;
+import java.util.Collections;
 
 public class Deck {
 
@@ -21,7 +22,7 @@ public class Deck {
 
     public void shuffle() {
         // TODO - implement Deck.shuffle
-        throw new UnsupportedOperationException();
+        Collections.shuffle(cards);
     }
 
 }
