@@ -160,7 +160,7 @@ public class MainCardTest {
     @Test
     public void testCheckStringInputBoundary() {
         System.out.println("checkStringInputBoundary");
-        String Playernumber = "3";
+        String Playernumber = "1";
         boolean expResult = true;
         boolean result = MainCard.checkStringInput(Playernumber);
         assertEquals(expResult, result);
